@@ -39,8 +39,8 @@
     }
 </style>
 </head>
-<body class="font-manrope container mx-auto">
-    <header>
+<body class="font-manrope">
+    <header class="mx-7">
         <div class=" pt-2">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -74,7 +74,7 @@
               </div>
         </div>
     </header>
-    <main>
+    <main class=" mx-auto container">
 
         <!-- Banner section with carousel -->
     <div class=" py-3 flex flex-col">
@@ -477,7 +477,6 @@
         <p class="text-base font-medium pt-6">For all inquiries and correspondence related to the Hockey International website, please feel free to get in touch with us.</p>
     </div>
 
-
     <div class="m-7">
         <div class="flex lg:flex-row flex-col gap-6">
             <!-- left -->
@@ -533,15 +532,130 @@
                     <textarea name="" id="" cols="30" rows="14" placeholder="Write your message" class="p-5 bg-[#13131808] rounded-xl outline-none"></textarea>
                 </div>
                 <div class="">
-                    <button class="btn bg-[#FF4240] text-white text-xl font-bold btn-block">Send Message</button>
+                    <button class="btn bg-[#FF4240] text-white text-xl font-bold btn-block outline-none">Send Message</button>
                 </div>
             </div>
         </div>
     </div>
 
-    </main>
-    <footer>
+    <!-- Social Media -->
+    <div class="m-7 bg-[#13131807] rounded-xl flex flex-col gap-6 py-8 mb-16 ">
+        <h4 class="text-2xl font-extrabold text-center">Social Media</h4>
+        <div class="text-xl flex gap-8 justify-center items-center">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </div>
 
+    </main>
+ 
+ 
+    <!-- footer -->
+    <footer>
+        <div class="p-24 bg-[#131318] text-[#ffffff99] hidden md:flex lg:flex flex-row gap-20">
+            <div class="w-auto">
+                <div class="flex flex-col">
+                    <h4 class="text-3xl font-extrabold text-[#fff] ">Get In Touch</h4>
+                    <p class="text-base font-medium py-6">For all inquiries and correspondence related to the Hockey International website, please feel free to get in touch with us.</p>
+                    <div class="flex flex-col gap-3">
+                        <div class=" flex gap-4 items-center">
+                            <i class="fa-regular fa-envelope text-[#FF4240]"></i>
+                            <p class="font-medium">hockeys@support.com</p>
+                        </div>
+                        <div class=" flex gap-4  items-center">
+                            <i class="fa-solid fa-phone  text-[#FF4240]"></i>
+                            <p class="font-medium">(+62) 123-321-543</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/5"> 
+                <nav class="flex flex-col gap-2">
+                    <header class="text-[#fff] text-base font-bold pb-4">Company</header> 
+                    <a class="link link-hover font-medium">About us</a>
+                    <a class="link link-hover font-medium">Leadership</a>
+                    <a class="link link-hover font-medium">Careers</a>
+                    <a class="link link-hover font-medium">News & Article</a>
+                    <a class="link link-hover font-medium">Legal Notice</a>
+                </nav>
+            </div>
+            <div class="w-1/5">
+                <nav class="flex flex-col gap-2">
+                    <header class="text-[#fff] text-base font-bold pb-4">Support</header> 
+                    <a class="link link-hover font-medium">Help Center</a>
+                    <a class="link link-hover font-medium">FAQ</a>
+                    <a class="link link-hover font-medium">Ticket Support</a>
+                    <a class="link link-hover font-medium">Contact Us</a>
+                </nav> 
+            </div>
+            <div class="w-1/5">
+                <nav class="flex flex-col gap-2">
+                    <header class="text-[#fff] text-base font-bold pb-4">Services</header> 
+                    <a class="link link-hover font-medium">Academy</a>
+                    <a class="link link-hover font-medium">Group Lesson</a>
+                    <a class="link link-hover font-medium">Private Lesson</a>
+                    <a class="link link-hover font-medium">Hockeys for kids</a>
+                    <a class="link link-hover font-medium">Hockeys for Adult</a>
+                </nav>
+            </div>
+        </div>   
+
+
+
+    <!-- for small devices -->
+
+        <div class="p-24 bg-[#131318] text-[#ffffff99] flex flex-col md:hidden lg:hidden">
+            <div class="w-auto">
+                <div class="flex flex-col lg:text-left items-center lg:items-start ">
+                    <h4 class="text-3xl font-extrabold text-[#fff] ">Get In Touch</h4>
+                    <p class="text-base font-medium py-6 text-center lg:text-left">For all inquiries and correspondence related to the Hockey International website, please feel free to get in touch with us.</p>
+                    <div class="flex flex-col gap-3">
+                        <div class=" flex gap-4 items-center">
+                            <i class="fa-regular fa-envelope text-[#FF4240]"></i>
+                            <p class="font-medium">hockeys@support.com</p>
+                        </div>
+                        <div class=" flex gap-4  items-center">
+                            <i class="fa-solid fa-phone  text-[#FF4240]"></i>
+                            <p class="font-medium">(+62) 123-321-543</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row justify-between items-center py-12 px-8">
+                <div class="text-center"> 
+                    <nav class="flex flex-col gap-2">
+                        <header class="text-[#fff] text-base font-bold pb-4">Company</header> 
+                        <a class="link link-hover font-medium">About us</a>
+                        <a class="link link-hover font-medium">Leadership</a>
+                        <a class="link link-hover font-medium">Careers</a>
+                        <a class="link link-hover font-medium">News & Article</a>
+                        <a class="link link-hover font-medium">Legal Notice</a>
+                    </nav>
+                </div>
+                <div class="text-center">
+                    <nav class="flex flex-col gap-2">
+                        <header class="text-[#fff] text-base font-bold pb-4">Support</header> 
+                        <a class="link link-hover font-medium">Help Center</a>
+                        <a class="link link-hover font-medium">FAQ</a>
+                        <a class="link link-hover font-medium">Ticket Support</a>
+                        <a class="link link-hover font-medium">Contact Us</a>
+                        <a class="link link-hover font-medium">Legal Actions</a>
+                    </nav> 
+                </div>
+            </div>
+            <div class="w-full text-center">
+                <nav class="flex flex-col gap-2">
+                    <header class="text-[#fff] text-base font-bold pb-4">Services</header> 
+                    <a class="link link-hover font-medium">Academy</a>
+                    <a class="link link-hover font-medium">Group Lesson</a>
+                    <a class="link link-hover font-medium">Private Lesson</a>
+                    <a class="link link-hover font-medium">Hockeys for kids</a>
+                    <a class="link link-hover font-medium">Hockeys for Adult</a>
+                </nav>
+            </div>
+        </div> 
     </footer>
 </body>
 </html>
